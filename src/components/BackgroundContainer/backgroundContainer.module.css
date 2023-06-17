@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  transition: all, 0.2s;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  will-change: transform;
+}
